@@ -1,0 +1,26 @@
+[rhel7-template-small]
+name = rhel7-template-small
+cpu = 1
+memory = 1073741824
+disk = 10737418240
+network = rhevm
+nic = nic1
+iso = rhel7-template.iso
+
+[rhel7-template-medium]
+name = rhel7-template-medium
+cpu = 1
+memory = 2147483648
+disk = 21474836480
+network = rhevm
+nic = nic1
+iso = rhel7-template.iso
+
+[rhel7-template-large]
+name = rhel7-template-large
+cpu = 2
+memory = 4294967296
+disk = 42949672960
+network = rhevm
+nic = nic1
+iso = rhel7-template.iso

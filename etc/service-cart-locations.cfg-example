@@ -1,0 +1,15 @@
+[austin]
+host = austin.crunchtools.com
+username = admin@internal
+password = PASSWORD
+certificate = /root/ops/etc/rhevm.ca
+cluster_name = Cluster01
+storage_domain = DATA1
+
+[houston]
+host = houston.crunchtools.com
+username = admin@internal
+password = PASSWORD
+certificate = /root/ops/etc/rhevm.ca
+cluster_name = Cluster02
+storage_domain = DATA2
